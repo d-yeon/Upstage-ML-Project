@@ -1,0 +1,717 @@
+{
+    "uid": "a357fc8b-4799-4c8f-af06-e11400ea958b",
+    "name": "62_NeuralNetwork_Stacked",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4999672342813576,
+                        0.49995198523687756
+                    ],
+                    "mean": [
+                        0.5057240409720828,
+                        0.5069291022293633
+                    ],
+                    "var": [
+                        0.24996723535494988,
+                        0.24995198754229506
+                    ],
+                    "n_samples_seen": 4979,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4999694933595029,
+                        0.49993052283074074
+                    ],
+                    "mean": [
+                        0.5055231974292026,
+                        0.508335007029524
+                    ],
+                    "var": [
+                        0.24996949429015805,
+                        0.2499305276578178
+                    ],
+                    "n_samples_seen": 4979,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.49995472848553774,
+                        0.49992366434880425
+                    ],
+                    "mean": [
+                        0.5067282586864832,
+                        0.5087366941152842
+                    ],
+                    "var": [
+                        0.24995473053504777,
+                        0.24992367017593592
+                    ],
+                    "n_samples_seen": 4979,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.499958708638405,
+                        0.4998735344330664
+                    ],
+                    "mean": [
+                        0.506425702811245,
+                        0.5112449799196788
+                    ],
+                    "var": [
+                        0.24995871034338157,
+                        0.24987355042660603
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.499998024221512,
+                        0.4998548199737108
+                    ],
+                    "mean": [
+                        0.5014056224899598,
+                        0.5120481927710844
+                    ],
+                    "var": [
+                        0.2499980242254157,
+                        0.24985484105095082
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4999447962299748,
+                        0.49993221424027084
+                    ],
+                    "mean": [
+                        0.507429718875502,
+                        0.5082329317269076
+                    ],
+                    "var": [
+                        0.249944799277431,
+                        0.24993221883518008
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4999838709677377,
+                        0.49994479622997484
+                    ],
+                    "mean": [
+                        0.5040160642570282,
+                        0.507429718875502
+                    ],
+                    "var": [
+                        0.2499838712278834,
+                        0.24994479927743105
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4999838709677377,
+                        0.4999447962299748
+                    ],
+                    "mean": [
+                        0.5040160642570282,
+                        0.507429718875502
+                    ],
+                    "var": [
+                        0.2499838712278834,
+                        0.249944799277431
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.49999512102263033,
+                        0.4999447962299748
+                    ],
+                    "mean": [
+                        0.5022088353413655,
+                        0.507429718875502
+                    ],
+                    "var": [
+                        0.24999512104643473,
+                        0.249944799277431
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4999354807487999,
+                        0.49986433862249025
+                    ],
+                    "mean": [
+                        0.5080321285140562,
+                        0.5116465863453815
+                    ],
+                    "var": [
+                        0.2499354849115337,
+                        0.2498643570264996
+                    ],
+                    "n_samples_seen": 4980,
+                    "n_features_in": 2,
+                    "columns": [
+                        "Drug",
+                        "Hepatomegaly"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Drug": [
+                        "scale_normal"
+                    ],
+                    "Hepatomegaly": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "5a79aadf-139f-4043-8796-4e5b118eaedf",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "d6290d39-4692-4cef-a7d9-be901061177d",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b787621d-fce8-4b90-bd3f-9c90b808b3d6",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "3ba28c20-5cd9-4e8a-bbc3-28d7e6c41ece",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "8820ae36-2ee9-4f3e-9a4f-c5733070e246",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "ed7004cd-6711-4aca-8319-f1e5233a3c90",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "602b2f07-8d27-4422-9b6f-a63611f9afe0",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "f3c447ed-175c-4c68-b6cf-09f50fd1f285",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "bda90b1a-6bf4-4e82-b83b-d0d67dcf3eed",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b766ea04-c6d2-417f-8145-cda7d235d370",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Drug": [
+                    "scale_normal"
+                ],
+                "Hepatomegaly": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_1\\X_stacked.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1240,
+            "dense_1_size": 64,
+            "dense_2_size": 4,
+            "learning_rate": 0.01,
+            "num_class": 3,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "62_NeuralNetwork_Stacked",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_stacked",
+        "max_time_for_learner": 60,
+        "is_stacked": true
+    },
+    "saved": [
+        "62_NeuralNetwork_Stacked\\learner_fold_0.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_1.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_2.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_3.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_4.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_5.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_6.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_7.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_8.neural_network",
+        "62_NeuralNetwork_Stacked\\learner_fold_9.neural_network"
+    ],
+    "predictions_fname": "62_NeuralNetwork_Stacked\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.4767874186594487",
+    "train_time": 30.350268602371216,
+    "is_stacked": true,
+    "joblib_version": "1.3.2"
+}

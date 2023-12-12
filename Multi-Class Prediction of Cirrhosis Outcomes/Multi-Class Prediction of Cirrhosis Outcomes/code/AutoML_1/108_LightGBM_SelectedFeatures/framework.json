@@ -1,0 +1,582 @@
+{
+    "uid": "31315e2b-32da-4644-a8ab-2f046924a759",
+    "name": "108_LightGBM_SelectedFeatures",
+    "preprocessing": [
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "6da4681e-c385-4fd4-be13-c1d7c00d586a",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "88428dc3-d333-4f5c-8a41-9955c8d82e20",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "c9fec5d2-4b3d-41d2-bbff-3bf63e11a6b2",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "1fb43ac3-be48-43a8-b6f6-fb002a30c146",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "b33fd4c6-e85a-469c-912e-9fd2a3769b32",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "f710ab03-6a12-4504-83ee-4b26e8214b4f",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "4ca5ac5e-9eeb-4348-9df2-0a091afb737d",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "0a4373dc-5ef1-4ad5-90f9-6d477fb5a19d",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "a2510d62-410b-48d9-add5-5acec97930b7",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "4.1.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "88d10519-4503-4742-a729-44fe88069ecd",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "objective": "multiclass",
+                "num_leaves": 15,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.8,
+                "bagging_fraction": 0.5,
+                "min_data_in_leaf": 20,
+                "metric": "multi_logloss",
+                "custom_eval_metric_name": null,
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "random_feature",
+                "Sex",
+                "Drug",
+                "Ascites"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_1\\X.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "objective": "multiclass",
+            "num_leaves": 15,
+            "learning_rate": 0.05,
+            "feature_fraction": 0.8,
+            "bagging_fraction": 0.5,
+            "min_data_in_leaf": 20,
+            "metric": "multi_logloss",
+            "custom_eval_metric_name": null,
+            "num_class": 3,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "108_LightGBM_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "108_LightGBM_SelectedFeatures\\learner_fold_0.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_1.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_2.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_3.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_4.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_5.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_6.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_7.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_8.lightgbm",
+        "108_LightGBM_SelectedFeatures\\learner_fold_9.lightgbm"
+    ],
+    "predictions_fname": "108_LightGBM_SelectedFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.4508308825150499",
+    "train_time": 11.757014989852905,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

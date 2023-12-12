@@ -1,0 +1,1280 @@
+{
+    "uid": "1d7cb94b-1075-4837-98a9-916fee67529b",
+    "name": "17_Xgboost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Edema",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5757815893
+                    },
+                    {
+                        "feature1": "Ascites",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5819414798
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.582759974
+                    },
+                    {
+                        "feature1": "Spiders",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5926796466
+                    },
+                    {
+                        "feature1": "Sex",
+                        "feature2": "Bilirubin",
+                        "operation": "sum",
+                        "score": 0.5967132385
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Sex",
+                        "operation": "diff",
+                        "score": 0.6084908932
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Hepatomegaly",
+                        "operation": "diff",
+                        "score": 0.6147135175
+                    },
+                    {
+                        "feature1": "Bilirubin",
+                        "feature2": "Spiders",
+                        "operation": "diff",
+                        "score": 0.6166016476
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Bilirubin",
+                        "operation": "ratio",
+                        "score": 0.6225327086
+                    },
+                    {
+                        "feature1": "Hepatomegaly",
+                        "feature2": "Copper",
+                        "operation": "sum",
+                        "score": 0.6227816
+                    }
+                ],
+                "new_columns": [
+                    "Edema_sum_Bilirubin",
+                    "Ascites_sum_Bilirubin",
+                    "Hepatomegaly_sum_Bilirubin",
+                    "Spiders_sum_Bilirubin",
+                    "Sex_sum_Bilirubin",
+                    "Bilirubin_diff_Sex",
+                    "Bilirubin_diff_Hepatomegaly",
+                    "Bilirubin_diff_Spiders",
+                    "Hepatomegaly_ratio_Bilirubin",
+                    "Hepatomegaly_sum_Copper"
+                ],
+                "ml_task": "multiclass_classification"
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "multiclass_classification",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "494861d5-f24a-4c5c-80d5-83ae72eeeb72",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "5877a541-dc68-40eb-b471-a2907219afc0",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "9aed5d58-3358-4b6c-a2b5-d3433aa1408d",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "e3bd16dd-6063-45ab-8825-ba14f7940c01",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "98ac764c-1d1f-42d0-b7a5-74ced06465d9",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "8f91042f-325f-4f28-9d9a-d0281aeac36b",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "8fbd8ce9-e34c-4bec-a8f3-e72ea6de06d2",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "fdee9c7c-6927-4d42-9247-e3a825907a16",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "a102ee92-08f5-44a0-8eba-16d26ce9be43",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "168007b4-9656-4ad1-a0a0-d815c59276e0",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "objective": "multi:softprob",
+                "eta": 0.1,
+                "max_depth": 4,
+                "min_child_weight": 25,
+                "subsample": 0.7,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "golden_features": {
+                "results_path": "AutoML_1",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_1\\X.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1240,
+            "objective": "multi:softprob",
+            "eta": 0.1,
+            "max_depth": 4,
+            "min_child_weight": 25,
+            "subsample": 0.7,
+            "colsample_bytree": 0.7,
+            "eval_metric": "mlogloss",
+            "num_class": 3,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "17_Xgboost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "17_Xgboost_GoldenFeatures\\learner_fold_0.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_1.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_2.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_3.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_4.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_5.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_6.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_7.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_8.xgboost.json",
+        "17_Xgboost_GoldenFeatures\\learner_fold_9.xgboost.json"
+    ],
+    "predictions_fname": "17_Xgboost_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.45134511953411954",
+    "train_time": 12.748785018920898,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

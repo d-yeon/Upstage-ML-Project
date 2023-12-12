@@ -1,0 +1,888 @@
+{
+    "uid": "8d08183d-1c0a-4c7a-b971-0d67fe5f9b7e",
+    "name": "18_Xgboost_KMeansFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_0.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_1.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_2.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_3.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_4.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_5.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_6.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_7.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_8.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Cluster"
+                ],
+                "result_file": "18_Xgboost_KMeansFeatures\\kmeans_fold_9.joblib",
+                "input_columns": [
+                    "N_Days",
+                    "Bilirubin",
+                    "Cholesterol",
+                    "Albumin",
+                    "Copper",
+                    "Alk_Phos",
+                    "SGOT",
+                    "Tryglicerides",
+                    "Platelets",
+                    "Prothrombin",
+                    "Drug",
+                    "Sex",
+                    "Ascites",
+                    "Hepatomegaly",
+                    "Spiders",
+                    "Edema"
+                ]
+            },
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_2"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "4203f74f-775b-46c4-a0f0-20946b02278d",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "9e1b8f69-8832-4631-8e35-342327a0fdca",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "22b1b8ba-b370-4a43-98ca-a34886fe2f8f",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "a4af8e5d-504f-478b-ac08-362d11dd0287",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "6be76b94-adac-48fc-9a84-267202b1bbd5",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "d7d09a70-e2da-49c4-a3ef-caab6ab5e2ee",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "053ee75b-1672-49f7-b4be-d57a7f61ac46",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "c3b47f86-04c8-4518-8b85-a84439edced0",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "b35796e2-a45f-4328-ad99-2d015f7d8608",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "2.0.2",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "980ccf0f-e7da-4ce5-8df5-e7dff6acf2ce",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "objective": "multi:softprob",
+                "eta": 0.05,
+                "max_depth": 8,
+                "min_child_weight": 5,
+                "subsample": 0.5,
+                "colsample_bytree": 0.8,
+                "eval_metric": "mlogloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "kmeans_features": {
+                "results_path": "AutoML_2"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1241,
+            "objective": "multi:softprob",
+            "eta": 0.05,
+            "max_depth": 8,
+            "min_child_weight": 5,
+            "subsample": 0.5,
+            "colsample_bytree": 0.8,
+            "eval_metric": "mlogloss",
+            "num_class": 3,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "18_Xgboost_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "18_Xgboost_KMeansFeatures\\learner_fold_0.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_1.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_2.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_3.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_4.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_5.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_6.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_7.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_8.xgboost.json",
+        "18_Xgboost_KMeansFeatures\\learner_fold_9.xgboost.json"
+    ],
+    "predictions_fname": "18_Xgboost_KMeansFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.4623683751254367",
+    "train_time": 20.545701503753662,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

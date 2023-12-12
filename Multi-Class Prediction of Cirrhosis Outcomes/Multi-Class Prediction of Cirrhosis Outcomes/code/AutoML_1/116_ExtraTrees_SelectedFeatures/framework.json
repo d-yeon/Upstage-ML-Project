@@ -1,0 +1,550 @@
+{
+    "uid": "d8a47bfa-5372-4012-bd7f-5518b31ec406",
+    "name": "116_ExtraTrees_SelectedFeatures",
+    "preprocessing": [
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        },
+        {
+            "categorical_y": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "Sex",
+                "Drug",
+                "Ascites"
+            ],
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "random_feature",
+                    "Sex",
+                    "Drug",
+                    "Ascites"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "f7c86458-85d2-4d60-8611-61506cf09609",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "4906f21e-1adc-49b3-b376-75428820d37d",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "decaacbf-98c0-4cdc-ba18-1eaca52d2aee",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "d87baae3-3dca-4154-a74d-89543f48e27f",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "bffca5cf-9968-4edd-888a-7a801e320444",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "1b5fcf6c-fb73-4dfb-acce-376972b46334",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "0fc1a64a-7a58-4869-bf97-5a74ffeb8deb",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "28d89b11-a874-44cb-92a9-8aa869e8863f",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "9789430e-d93d-4a22-ad8d-ac44fc5ae5ce",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Extra Trees Classifier",
+            "algorithm_short_name": "Extra Trees",
+            "uid": "919938de-a7fa-481f-a0c2-aabd6ea69ada",
+            "params": {
+                "model_type": "Extra Trees",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "criterion": "entropy",
+                "max_features": 1.0,
+                "min_samples_split": 40,
+                "max_depth": 7,
+                "eval_metric_name": "logloss",
+                "num_class": 3,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "random_feature",
+                "Sex",
+                "Drug",
+                "Ascites"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_1\\X.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1",
+            "k_folds": 10
+        },
+        "learner": {
+            "model_type": "Extra Trees",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1240,
+            "criterion": "entropy",
+            "max_features": 1.0,
+            "min_samples_split": 40,
+            "max_depth": 7,
+            "eval_metric_name": "logloss",
+            "num_class": 3,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "116_ExtraTrees_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_0.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_1.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_2.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_3.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_4.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_5.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_6.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_7.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_8.extra_trees",
+        "116_ExtraTrees_SelectedFeatures\\learner_fold_9.extra_trees"
+    ],
+    "predictions_fname": "116_ExtraTrees_SelectedFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.5036094650609932",
+    "train_time": 21.404219150543213,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

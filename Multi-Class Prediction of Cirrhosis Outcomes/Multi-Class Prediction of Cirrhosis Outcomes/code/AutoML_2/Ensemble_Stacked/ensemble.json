@@ -1,0 +1,52 @@
+{
+    "name": "Ensemble_Stacked",
+    "ml_task": "multiclass_classification",
+    "optimize_metric": "logloss",
+    "selected_models": [
+        {
+            "model": "116_ExtraTrees_SelectedFeatures_Stacked",
+            "repeat": 3.0
+        },
+        {
+            "model": "14_Xgboost_Stacked",
+            "repeat": 11.0
+        },
+        {
+            "model": "15_Xgboost",
+            "repeat": 3.0
+        },
+        {
+            "model": "17_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "17_Xgboost_KMeansFeatures",
+            "repeat": 2.0
+        },
+        {
+            "model": "22_LightGBM",
+            "repeat": 7.0
+        },
+        {
+            "model": "25_LightGBM",
+            "repeat": 8.0
+        },
+        {
+            "model": "77_Xgboost",
+            "repeat": 4.0
+        },
+        {
+            "model": "81_LightGBM",
+            "repeat": 1.0
+        },
+        {
+            "model": "Ensemble",
+            "repeat": 115.0
+        }
+    ],
+    "predictions_fname": "Ensemble_Stacked\\predictions_ensemble.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.438903535671222,
+    "train_time": 160.19756650924683,
+    "is_stacked": true
+}

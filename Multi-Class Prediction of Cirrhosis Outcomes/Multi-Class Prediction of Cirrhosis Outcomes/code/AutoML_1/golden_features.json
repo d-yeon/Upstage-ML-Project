@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "Edema",
+            "feature2": "Bilirubin",
+            "operation": "sum",
+            "score": 0.5757815893
+        },
+        {
+            "feature1": "Ascites",
+            "feature2": "Bilirubin",
+            "operation": "sum",
+            "score": 0.5819414798
+        },
+        {
+            "feature1": "Hepatomegaly",
+            "feature2": "Bilirubin",
+            "operation": "sum",
+            "score": 0.582759974
+        },
+        {
+            "feature1": "Spiders",
+            "feature2": "Bilirubin",
+            "operation": "sum",
+            "score": 0.5926796466
+        },
+        {
+            "feature1": "Sex",
+            "feature2": "Bilirubin",
+            "operation": "sum",
+            "score": 0.5967132385
+        },
+        {
+            "feature1": "Bilirubin",
+            "feature2": "Sex",
+            "operation": "diff",
+            "score": 0.6084908932
+        },
+        {
+            "feature1": "Bilirubin",
+            "feature2": "Hepatomegaly",
+            "operation": "diff",
+            "score": 0.6147135175
+        },
+        {
+            "feature1": "Bilirubin",
+            "feature2": "Spiders",
+            "operation": "diff",
+            "score": 0.6166016476
+        },
+        {
+            "feature1": "Hepatomegaly",
+            "feature2": "Bilirubin",
+            "operation": "ratio",
+            "score": 0.6225327086
+        },
+        {
+            "feature1": "Hepatomegaly",
+            "feature2": "Copper",
+            "operation": "sum",
+            "score": 0.6227816
+        }
+    ],
+    "new_columns": [
+        "Edema_sum_Bilirubin",
+        "Ascites_sum_Bilirubin",
+        "Hepatomegaly_sum_Bilirubin",
+        "Spiders_sum_Bilirubin",
+        "Sex_sum_Bilirubin",
+        "Bilirubin_diff_Sex",
+        "Bilirubin_diff_Hepatomegaly",
+        "Bilirubin_diff_Spiders",
+        "Hepatomegaly_ratio_Bilirubin",
+        "Hepatomegaly_sum_Copper"
+    ],
+    "ml_task": "multiclass_classification"
+}
